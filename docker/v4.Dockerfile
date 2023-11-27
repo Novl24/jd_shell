@@ -16,7 +16,7 @@ ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     JD_DIR=/jd \
     ENABLE_HANGUP=false \
     ENABLE_RESET_REPO_URL=true \
-    JD_SHELL_URL=https://$JD_SHELL_HOST/Novl24/$JD_SHELL \
+    JD_SHELL_URL=https://$JD_SHELL_HOST/gys619/$JD_SHELL \
     JD_SCRIPTS_URL=git@$JD_SCRIPTS_HOST:lxk0301/$JD_SCRIPTS.git
 WORKDIR $JD_DIR
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
