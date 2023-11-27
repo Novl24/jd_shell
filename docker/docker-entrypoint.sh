@@ -30,11 +30,6 @@ if [ ! -d $dir_own ]; then
     mkdir -p $dir_own
 fi
 
-echo -e "\n======================== 2. 更新源代码 ========================\n"
-jup shell
-jup scripts
-echo
-
 echo -e "======================== 3. 检测配置文件 ========================\n"
 if [ -s $file_crontab_user ]; then
     echo -e "检测到 $file_crontab_user 存在，自动导入定时任务...\n"
